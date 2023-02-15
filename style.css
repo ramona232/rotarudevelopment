@@ -32,15 +32,16 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 1rem ;
-	background: #fbf5f2;
--webkit-box-shadow: 0px 2px 17px 0px rgba(31,31,31,0.31);
--moz-box-shadow: 0px 2px 17px 0px rgba(31,31,31,0.31);
-box-shadow: 0px 2px 17px 0px rgba(31,31,31,0.31);
+	padding: 1rem;
+	background: #fbf5f288;
+	backdrop-filter: blur(10px);
+	-webkit-box-shadow: 0px 2px 17px 0px rgba(31, 31, 31, 0.31);
+	-moz-box-shadow: 0px 2px 17px 0px rgba(31, 31, 31, 0.31);
+	box-shadow: 0px 2px 17px 0px rgba(31, 31, 31, 0.31);
 	transition: all.45s;
 }
 
-.logo img{
+.logo img {
 	width: 10rem;
 }
 
@@ -99,10 +100,10 @@ box-shadow: 0px 2px 17px 0px rgba(31,31,31,0.31);
 	margin-bottom: 1.5rem;
 }
 
-
 .button {
 	text-transform: uppercase;
 	background: #00ac89;
+	background: linear-gradient(45deg, rgba(0,80,79,1) 0%, rgba(0,172,137,1) 100%);
 	padding: 15px 30px;
 	display: inline-block;
 	border-radius: 5px;
@@ -121,14 +122,15 @@ box-shadow: 0px 2px 17px 0px rgba(31,31,31,0.31);
 	letter-spacing: 3px;
 }
 
-.projects-title {
-	text-align: center;
-	margin: 8rem;
-	font-size: 4rem;
-}
 
+/* Projects */
 .projects {
 	padding-bottom: 4rem;
+}
+.projects-title {
+	text-align: center;
+	margin: 6rem;
+	font-size: 4rem;
 }
 
 .projects-container {
@@ -144,6 +146,11 @@ box-shadow: 0px 2px 17px 0px rgba(31,31,31,0.31);
 
 .project-img {
 	padding-bottom: 4rem;
+}
+
+.project-details{
+	text-align: center;
+	padding-bottom: 1rem;
 }
 
 .project-links {
