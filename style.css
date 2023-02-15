@@ -103,7 +103,11 @@ header {
 .button {
 	text-transform: uppercase;
 	background: #00ac89;
-	background: linear-gradient(45deg, rgba(0,80,79,1) 0%, rgba(0,172,137,1) 100%);
+	background: linear-gradient(
+		45deg,
+		rgba(0, 80, 79, 1) 0%,
+		rgba(0, 172, 137, 1) 100%
+	);
 	padding: 15px 30px;
 	display: inline-block;
 	border-radius: 5px;
@@ -121,7 +125,6 @@ header {
 .button a:hover {
 	letter-spacing: 3px;
 }
-
 
 /* Projects */
 .projects {
@@ -148,9 +151,10 @@ header {
 	padding-bottom: 4rem;
 }
 
-.project-details{
+.project-details {
 	text-align: center;
-	padding-bottom: 1rem;
+	padding-bottom: 0.5rem;
+	text-decoration: underline;
 }
 
 .project-links {
