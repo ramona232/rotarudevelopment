@@ -16,7 +16,7 @@
 }
 
 body {
-		background: url("img/bg1.jpg") center/cover fixed no-repeat;
+	background: url("img/bg1.jpg") center/cover fixed no-repeat;
 	color: var(--big-font-color);
 	letter-spacing: 2px;
 }
@@ -85,13 +85,13 @@ header {
 	color: var(--big-font-color);
 }
 
-.home-content img{
+.home-content img {
 	width: 500px;
 	border-radius: 50%;
 	border: 50px solid #073342;
 }
 
-.text{
+.text {
 	text-align: end;
 }
 
