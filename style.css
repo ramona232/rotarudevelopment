@@ -141,7 +141,7 @@ header {
 }
 .projects-title {
 	text-align: center;
-	margin: 6rem;
+	margin: 3rem;
 	font-size: 4rem;
 }
 
@@ -197,8 +197,27 @@ header {
 
 .about-title {
 	text-align: center;
-	margin: 6rem;
+	margin: 3rem;
 	font-size: 4rem;
+}
+
+.about-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 0 2rem;
+}
+
+.about img {
+	width: 400px;
+	border-radius: 50%;
+	border: 30px solid #073342;
+}
+
+.about-text {
+	width: 500px;
+	line-height: 1.6;
+	font-size: 18px;
 }
 
 /* contact section */
@@ -208,6 +227,21 @@ header {
 
 .contact-title {
 	text-align: center;
-	margin: 6rem;
+	margin: 3rem;
 	font-size: 4rem;
 }
+
+.contact-form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.contact-form iframe {
+	background-color: #8fccb2;
+	border-radius: 5px;
+}
+
+/* .contact iframe{
+	padding: 2rem;
+} */
